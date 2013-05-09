@@ -21,17 +21,47 @@
 
 @interface HHModelController()
 @property (readonly, strong, nonatomic) NSArray *pageData;
+@property (readonly, strong, nonatomic) NSArray *imageData;
 @end
 
 @implementation HHModelController
+
 
 - (id)init
 {
     self = [super init];
     if (self) {
         // Create the data model.
-        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-        _pageData = [[dateFormatter monthSymbols] copy];
+//        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+//        _pageData = [[dateFormatter monthSymbols] copy];
+        _pageData = @[@"Camper\nto\nCamper",
+                      @"다음 발표자\n지정 전략",
+                      @"혈액형",
+                      @"MBTI",
+                      @"ENTP",
+                      @"ENTP이라면",
+                      @"어린시절",
+                      @"중학교",
+                      @" ",
+                      @"컴퓨터?",
+                      @"PC통신",
+                      @"  ",
+                      @"전공",
+                      ];
+        _imageData = @[[UIImage imageNamed:@"0.jpg"],
+                       [UIImage imageNamed:@"1.png"],
+                       [UIImage imageNamed:@"2.png"],
+                       [UIImage imageNamed:@"3.png"],
+                       @"발명왕\n해결사\n디테일?\n결과?",
+                       [UIImage imageNamed:@"4.png"],
+                       @"80년생\n올해 34!\n다들 알지만 관심 없는\n책",
+                       [UIImage imageNamed:@"5.png"],
+                       [UIImage imageNamed:@"6.png"],
+                       [UIImage imageNamed:@"7.png"],
+                       [UIImage imageNamed:@"8.png"],
+                       [UIImage imageNamed:@"9.png"],
+                       [UIImage imageNamed:@"10.png"],
+                       ];
     }
     return self;
 }
@@ -46,6 +76,8 @@
     // Create a new view controller and pass suitable data.
     HHDataViewController *dataViewController = [storyboard instantiateViewControllerWithIdentifier:@"HHDataViewController"];
     dataViewController.dataObject = self.pageData[index];
+    dataViewController.imageObject = self.imageData[index];
+    dataViewController.index = index;
     return dataViewController;
 }
 

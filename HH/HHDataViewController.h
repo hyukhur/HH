@@ -12,5 +12,9 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *dataLabel;
 @property (strong, nonatomic) id dataObject;
+@property (strong, nonatomic) IBOutlet UIButton *button;
+@property (strong, nonatomic) id imageObject;
+- (IBAction)buttonTapped:(id)sender;
+@property (assign, nonatomic) NSInteger index;
 
 @end

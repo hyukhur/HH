@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D3F77D7173B827B00355519 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F77D6173B827B00355519 /* 0.jpg */; };
+		4D3F77DA173B866100355519 /* WheelScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F77D9173B866100355519 /* WheelScrollView.m */; };
+		4D3F77DD173B86C400355519 /* WheelScrollViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F77DC173B86C400355519 /* WheelScrollViewManager.m */; };
+		4D3F77DF173B98EE00355519 /* HHWheelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F77DE173B98EE00355519 /* HHWheelViewController.xib */; };
+		4D3F77E1173BA6F600355519 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F77E0173BA6F600355519 /* 1.png */; };
+		4D4DCB08173BD43000A72856 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4DCB07173BD43000A72856 /* 2.png */; };
+		4D4DCB0A173BD43800A72856 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4DCB09173BD43800A72856 /* 3.png */; };
+		4D4DCB0E173BDAB900A72856 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4DCB0D173BDAB900A72856 /* 4.png */; };
+		4D4DCB10173BDF6A00A72856 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4DCB0F173BDF6A00A72856 /* 5.png */; };
+		4D4DCB12173BE01300A72856 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4DCB11173BE01300A72856 /* 6.png */; };
+		4D4DCB14173BE0A500A72856 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4DCB13173BE0A500A72856 /* 7.png */; };
+		4D4DCB16173BE24300A72856 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4DCB15173BE24300A72856 /* 8.png */; };
+		4D4DCB19173BE44C00A72856 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4DCB17173BE44C00A72856 /* 9.png */; };
+		4D4DCB1A173BE44C00A72856 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4DCB18173BE44C00A72856 /* 10.png */; };
 		4D9110CC173B7ACD00F6948D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9110CB173B7ACD00F6948D /* UIKit.framework */; };
 		4D9110CE173B7ACD00F6948D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9110CD173B7ACD00F6948D /* Foundation.framework */; };
 		4D9110D0173B7ACD00F6948D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9110CF173B7ACD00F6948D /* CoreGraphics.framework */; };
@@ -20,9 +34,26 @@
 		4D9110E8173B7ACD00F6948D /* HHDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9110E7173B7ACD00F6948D /* HHDataViewController.m */; };
 		4D9110EB173B7ACD00F6948D /* HHModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9110EA173B7ACD00F6948D /* HHModelController.m */; };
 		4D9110EE173B7ACD00F6948D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9110EC173B7ACD00F6948D /* MainStoryboard.storyboard */; };
+		4D9110F6173B7CEF00F6948D /* HHWheelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9110F5173B7CEF00F6948D /* HHWheelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D3F77D6173B827B00355519 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		4D3F77D8173B866100355519 /* WheelScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelScrollView.h; sourceTree = "<group>"; };
+		4D3F77D9173B866100355519 /* WheelScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelScrollView.m; sourceTree = "<group>"; };
+		4D3F77DB173B86C400355519 /* WheelScrollViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelScrollViewManager.h; sourceTree = "<group>"; };
+		4D3F77DC173B86C400355519 /* WheelScrollViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelScrollViewManager.m; sourceTree = "<group>"; };
+		4D3F77DE173B98EE00355519 /* HHWheelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HHWheelViewController.xib; sourceTree = "<group>"; };
+		4D3F77E0173BA6F600355519 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		4D4DCB07173BD43000A72856 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		4D4DCB09173BD43800A72856 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		4D4DCB0D173BDAB900A72856 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		4D4DCB0F173BDF6A00A72856 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		4D4DCB11173BE01300A72856 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		4D4DCB13173BE0A500A72856 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		4D4DCB15173BE24300A72856 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		4D4DCB17173BE44C00A72856 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		4D4DCB18173BE44C00A72856 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
 		4D9110C8173B7ACD00F6948D /* HH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9110CB173B7ACD00F6948D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4D9110CD173B7ACD00F6948D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -43,6 +74,8 @@
 		4D9110E9173B7ACD00F6948D /* HHModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHModelController.h; sourceTree = "<group>"; };
 		4D9110EA173B7ACD00F6948D /* HHModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHModelController.m; sourceTree = "<group>"; };
 		4D9110ED173B7ACD00F6948D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4D9110F4173B7CEE00F6948D /* HHWheelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHWheelViewController.h; sourceTree = "<group>"; };
+		4D9110F5173B7CEF00F6948D /* HHWheelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHWheelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,11 +126,18 @@
 				4D9110DB173B7ACD00F6948D /* HHAppDelegate.m */,
 				4D9110E3173B7ACD00F6948D /* HHRootViewController.h */,
 				4D9110E4173B7ACD00F6948D /* HHRootViewController.m */,
+				4D9110F4173B7CEE00F6948D /* HHWheelViewController.h */,
+				4D3F77DE173B98EE00355519 /* HHWheelViewController.xib */,
+				4D9110F5173B7CEF00F6948D /* HHWheelViewController.m */,
+				4D3F77D8173B866100355519 /* WheelScrollView.h */,
+				4D3F77D9173B866100355519 /* WheelScrollView.m */,
+				4D3F77DB173B86C400355519 /* WheelScrollViewManager.h */,
+				4D3F77DC173B86C400355519 /* WheelScrollViewManager.m */,
+				4D9110EC173B7ACD00F6948D /* MainStoryboard.storyboard */,
 				4D9110E6173B7ACD00F6948D /* HHDataViewController.h */,
 				4D9110E7173B7ACD00F6948D /* HHDataViewController.m */,
 				4D9110E9173B7ACD00F6948D /* HHModelController.h */,
 				4D9110EA173B7ACD00F6948D /* HHModelController.m */,
-				4D9110EC173B7ACD00F6948D /* MainStoryboard.storyboard */,
 				4D9110D2173B7ACD00F6948D /* Supporting Files */,
 			);
 			path = HH;
@@ -106,6 +146,17 @@
 		4D9110D2173B7ACD00F6948D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4D3F77D6173B827B00355519 /* 0.jpg */,
+				4D3F77E0173BA6F600355519 /* 1.png */,
+				4D4DCB07173BD43000A72856 /* 2.png */,
+				4D4DCB09173BD43800A72856 /* 3.png */,
+				4D4DCB0D173BDAB900A72856 /* 4.png */,
+				4D4DCB0F173BDF6A00A72856 /* 5.png */,
+				4D4DCB11173BE01300A72856 /* 6.png */,
+				4D4DCB13173BE0A500A72856 /* 7.png */,
+				4D4DCB15173BE24300A72856 /* 8.png */,
+				4D4DCB17173BE44C00A72856 /* 9.png */,
+				4D4DCB18173BE44C00A72856 /* 10.png */,
 				4D9110D3173B7ACD00F6948D /* HH-Info.plist */,
 				4D9110D4173B7ACD00F6948D /* InfoPlist.strings */,
 				4D9110D7173B7ACD00F6948D /* main.m */,
@@ -174,6 +225,18 @@
 				4D9110E0173B7ACD00F6948D /* Default@2x.png in Resources */,
 				4D9110E2173B7ACD00F6948D /* Default-568h@2x.png in Resources */,
 				4D9110EE173B7ACD00F6948D /* MainStoryboard.storyboard in Resources */,
+				4D3F77D7173B827B00355519 /* 0.jpg in Resources */,
+				4D3F77DF173B98EE00355519 /* HHWheelViewController.xib in Resources */,
+				4D3F77E1173BA6F600355519 /* 1.png in Resources */,
+				4D4DCB08173BD43000A72856 /* 2.png in Resources */,
+				4D4DCB0A173BD43800A72856 /* 3.png in Resources */,
+				4D4DCB0E173BDAB900A72856 /* 4.png in Resources */,
+				4D4DCB10173BDF6A00A72856 /* 5.png in Resources */,
+				4D4DCB12173BE01300A72856 /* 6.png in Resources */,
+				4D4DCB14173BE0A500A72856 /* 7.png in Resources */,
+				4D4DCB16173BE24300A72856 /* 8.png in Resources */,
+				4D4DCB19173BE44C00A72856 /* 9.png in Resources */,
+				4D4DCB1A173BE44C00A72856 /* 10.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +252,9 @@
 				4D9110E5173B7ACD00F6948D /* HHRootViewController.m in Sources */,
 				4D9110E8173B7ACD00F6948D /* HHDataViewController.m in Sources */,
 				4D9110EB173B7ACD00F6948D /* HHModelController.m in Sources */,
+				4D9110F6173B7CEF00F6948D /* HHWheelViewController.m in Sources */,
+				4D3F77DA173B866100355519 /* WheelScrollView.m in Sources */,
+				4D3F77DD173B86C400355519 /* WheelScrollViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +339,12 @@
 		4D9110F2173B7ACD00F6948D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: NHN Corporation";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HH/HH-Prefix.pch";
 				INFOPLIST_FILE = "HH/HH-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3107AA79-CC0C-4310-9D0A-6CDB39FDC004";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -284,10 +352,12 @@
 		4D9110F3173B7ACD00F6948D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: NHN Corporation";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HH/HH-Prefix.pch";
 				INFOPLIST_FILE = "HH/HH-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3107AA79-CC0C-4310-9D0A-6CDB39FDC004";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -311,6 +381,7 @@
 				4D9110F3173B7ACD00F6948D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
